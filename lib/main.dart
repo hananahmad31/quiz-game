@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:quiz_app/Screens/landingScreen.dart';
 
 void main() {
-  runApp(QuizApp());
+  runApp(const QuizApp());
 }
 
 class QuizApp extends StatelessWidget {
@@ -10,7 +10,7 @@ class QuizApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       home: LandingScreen(),
     );
   }

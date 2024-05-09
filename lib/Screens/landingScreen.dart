@@ -11,9 +11,20 @@ class _LandingScreenState extends State<LandingScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        child: Text("Test"),
+      
+      body: Center(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: menuList,
+        ),
       ),
     );
   }
+
+  List<Widget> menuList = [
+    TextButton(onPressed: () {}, child: Text("Play")),
+    TextButton(onPressed: () {}, child: Text("Settings")),
+    TextButton(onPressed: () {}, child: Text("Exit")),
+  ];
 }
