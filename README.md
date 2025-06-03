@@ -1,18 +1,7 @@
-# quiz_app
+# Quiz Game
 
-A quiz app to test your knowledge.
+A fun and interactive quiz game application built using Flutter.
+Features multiple categories for players to choose from and test their knowledge.
+Designed as a semester project to demonstrate Flutter app development skills and UI/UX design.
 
-## Tools and Packages
-USED:
 
-Firebase 
-
-    -Authentication
-
-    -Firestore
-
-SharedPreference
-
-Rest Api
-
-Provider state handler
